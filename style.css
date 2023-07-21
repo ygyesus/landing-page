@@ -1,0 +1,126 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body > *{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+body{
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* BLUE BLACK SECTION */
+
+.blue-black{
+    background-color: #1F2937;
+
+}
+
+.blue-black *{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.blue-black .logo{
+    font-size: 24px;
+}
+
+.blue-black h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.blue-black .logo, .blue-black h1{
+    color: #F9FAF8;
+}
+
+.blue-black{
+    padding-bottom: 24px;
+}
+
+
+
+/* HEADER */
+
+.header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+
+
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+
+    justify-content: right;
+    padding-right: 0;
+
+    gap: 48px;
+}
+
+
+
+/* BLUE BLACK FLEX */
+
+.blue-black-flex{
+    display: flex;
+    margin: 140px 0px;
+    gap: 80px;
+}
+
+
+
+.blue-black .col{
+    flex: 1 1 25%;
+}
+
+
+.image{
+    background-color: rgb(159, 157, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 6px;
+    flex: 1 1 40%;
+}
+
+.blue-black-flex .col a{
+
+    background-color: #3882F6;
+    font-weight: 900;
+    padding: 8px 32px;
+    border-radius: 8px;
+    display: inline-block;
+
+
+}
+
+.blue-black-flex h1, a{
+    /* outline: 1px solid pink; */
+    margin: 0;
+}
+
+.blue-black-flex p{
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+
+
+
+
