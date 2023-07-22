@@ -8,9 +8,9 @@ body > *{
     padding-right: 120px;
 }
 
-/* body{
+body{
     margin: 0;
-} */
+}
 
 
 a{
@@ -21,7 +21,7 @@ a{
 
 /* BLUE BLACK SECTION */
 
-.blue-black{
+.blue-black, .footer{
     background-color: #1F2937;
 
 }
@@ -205,7 +205,7 @@ div.white h1{
     color: white;
     padding-top: 48px;
     padding-bottom: 48px;
-    margin: 80px 160px;
+    margin: 100px 160px;
 
 }
 
@@ -237,4 +237,12 @@ div.white h1{
    
     margin-top: 4px;
     
+}
+
+
+.footer{
+    color: white;
+    text-align: center;
+    padding: 48px;
+
 }
