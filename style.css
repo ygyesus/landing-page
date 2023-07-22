@@ -100,17 +100,21 @@ a{
     flex: 1 1 40%;
 }
 
-.blue-black-flex .col a{
+.blue-black-flex .col a, .blue-action a{
 
-    background-color: #3882F6;
     font-weight: 900;
     padding: 8px 32px;
     border-radius: 8px;
     display: inline-block;
-
+    color: white;
 
 }
 
+
+.blue-black-flex .col a{
+    background-color: #3882F6;
+
+}
 .blue-black-flex h1, a{
     /* outline: 1px solid pink; */
     margin: 0;
@@ -129,7 +133,7 @@ a{
 /* WHITE SECTION */
 
 div.white, .grey{
-    padding: 0 240px;
+    padding: 0 250px;
     padding-bottom: 80px;
 }
 div.white h1{
@@ -137,6 +141,7 @@ div.white h1{
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;
+    margin: 48px;
 
 
 }
@@ -186,6 +191,50 @@ div.white h1{
     font-weight: bold;
     text-align: right;
     margin-right: 64px;
+}
+
+
+
+
+
+
+/* BLUE SECTION */
+
+.blue-action{
+    background-color: #3882F6;
+    color: white;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin: 80px 160px;
 
 }
 
+.blue-action .blue-flex{
+    display: flex;
+
+    align-items: flex-end;
+}
+
+.blue-action .column-one *{
+    margin: 0;
+}
+
+
+.blue-action .title{
+    font-weight: 900;
+}
+
+
+
+.blue-action a{
+    margin: 0;
+    border: 2px solid white;
+    margin-left: auto;
+
+}
+
+.blue-action .column-one p{
+   
+    margin-top: 4px;
+    
+}
