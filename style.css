@@ -18,7 +18,6 @@ a{
 }
 
 
-
 /* BLUE BLACK SECTION */
 
 .blue-black, .footer{
@@ -51,7 +50,6 @@ a{
 }
 
 
-
 /* HEADER */
 
 .header{
@@ -60,7 +58,6 @@ a{
     justify-content: space-between;
     
 }
-
 
 .header ul{
     list-style: none;
@@ -74,8 +71,6 @@ a{
     gap: 48px;
 }
 
-
-
 /* BLUE BLACK FLEX */
 
 .blue-black-flex{
@@ -83,8 +78,6 @@ a{
     margin: 140px 0px;
     gap: 80px;
 }
-
-
 
 .blue-black .col{
     flex: 1 1 25%;
@@ -102,7 +95,7 @@ a{
 
 .blue-black-flex .col a, .blue-action a{
 
-    font-weight: 900;
+    font-weight: 600;
     padding: 8px 32px;
     border-radius: 8px;
     display: inline-block;
@@ -126,10 +119,6 @@ a{
 }
 
 
-
-
-
-
 /* WHITE SECTION */
 
 div.white, .grey{
@@ -142,16 +131,12 @@ div.white h1{
     color: #1F2937;
     text-align: center;
     margin: 48px;
-
-
 }
 
 .white-flex{
     display: flex;
     justify-content: center;
     gap: 48px;
-  
-
 }
 
 .white-flex column{
@@ -168,8 +153,6 @@ div.white h1{
 .white-flex p{
     text-align: center;
 }
-
-
 
 
 /* GREY SECTION */
@@ -192,9 +175,6 @@ div.white h1{
     text-align: right;
     margin-right: 64px;
 }
-
-
-
 
 
 
@@ -221,10 +201,8 @@ div.white h1{
 
 
 .blue-action .title{
-    font-weight: 900;
+    font-weight: 600;
 }
-
-
 
 .blue-action a{
     margin: 0;
@@ -239,10 +217,13 @@ div.white h1{
     
 }
 
-
 .footer{
     color: white;
     text-align: center;
     padding: 48px;
 
+}
+
+.footer span{
+    margin: 6px;
 }
