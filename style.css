@@ -4,13 +4,13 @@
 }
 
 body > *{
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
-body{
+/* body{
     margin: 0;
-}
+} */
 
 
 a{
@@ -39,6 +39,7 @@ a{
 .blue-black h1{
     font-size: 48px;
     font-weight: extra-bold;
+
 }
 
 .blue-black .logo, .blue-black h1{
@@ -127,9 +128,39 @@ a{
 
 /* WHITE SECTION */
 
+div.white{
+    padding: 0 240px;
+}
 div.white h1{
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;
+
+
 }
+
+.white-flex{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+  
+
+}
+
+.white-flex column{
+    max-width: 20%;
+}
+
+.white-flex .column .box{
+    border: 4px solid #3882F6;
+    height: 160px;
+    border-radius: 16px;
+
+}
+
+.white-flex p{
+    text-align: center;
+}
+
+
