@@ -130,6 +130,7 @@ a{
 
 div.white{
     padding: 0 240px;
+    padding-bottom: 80px;
 }
 div.white h1{
     font-size: 36px;
@@ -163,4 +164,8 @@ div.white h1{
     text-align: center;
 }
 
+
+
+
+/* GREY SECTION */
 
