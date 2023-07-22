@@ -64,8 +64,6 @@ a{
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
-
-    justify-content: right;
     padding-right: 0;
 
     gap: 48px;
