@@ -128,7 +128,7 @@ a{
 
 /* WHITE SECTION */
 
-div.white{
+div.white, .grey{
     padding: 0 240px;
     padding-bottom: 80px;
 }
@@ -168,4 +168,24 @@ div.white h1{
 
 
 /* GREY SECTION */
+
+.grey{
+    background-color: #E5E7EB;
+    padding-top: 80px;
+}
+
+.grey *{
+    margin: 0;
+}
+.grey .quote{
+    font-style: italic;
+    font-size: 36px;
+}
+
+.grey .thor{
+    font-weight: bold;
+    text-align: right;
+    margin-right: 64px;
+
+}
 
